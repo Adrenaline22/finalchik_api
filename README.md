@@ -14,11 +14,7 @@
 
 ## Установка
 
-1. Клонировать репозиторий:
-
-   ```python
-   git clone https://github.com/egorcoders/api_final_yatube.git
-   ```
+1. Клонировать репозиторий
 
 2. Перейти в папку с проектом:
 
@@ -35,9 +31,6 @@
 4. Активировать виртуальное окружение для проекта:
 
    ```python
-   # для OS Lunix и MacOS
-   source venv/bin/activate
-
    # для OS Windows
    source venv/Scripts/activate
    ```
@@ -77,22 +70,23 @@
 1. Пример запроса:
 
    ```json
-   {
-     "text": "Мой первый пост."
-   }
+  {
+  "text": "ллл",
+  "group": 0
+}
    ```
 
 2. Пример ответа:
 
    ```json
-   {
-     "id": 2,
-     "author": "Dmitrii",
-     "text": "Мой первый пост.",
-     "pub_date": "2022-04-22T12:00:22.021094Z",
-     "image": null,
-     "group": null
-   }
+  {
+  "id": 1,
+  "author": "Таня",
+  "text": "ллл",
+  "pub_date": "2019-08-24T14:15:22Z",
+  "image": "string",
+  "group": null
+  }
    ```
 
 Комментирование поста пользователя
@@ -112,12 +106,12 @@
 
    ```json
    {
-     "id": 1,
-     "author": "Dmitrii",
-     "text": "Тест",
-     "created": "2022-04-22T12:06:13.146875Z",
-     "post": 1
-   }
+  "id": 1,
+  "author": "Таня",
+  "text": "Тест",
+  "created": "2019-08-24T14:15:22Z",
+  "post": 1
+}
    ```
 
 ## Ресурсы
