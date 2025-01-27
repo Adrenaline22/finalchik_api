@@ -80,12 +80,12 @@
 
    ```json
   {
-  "id": 1,
-  "author": "Таня",
-  "text": "ллл",
-  "pub_date": "2019-08-24T14:15:22Z",
-  "image": "string",
-  "group": null
+     "id": 1,
+     "author": "Таня",
+     "text": "ллл",
+     "pub_date": "2019-08-24T14:15:22Z",
+     "image": "string",
+     "group": null
   }
    ```
 
